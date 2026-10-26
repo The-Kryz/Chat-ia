@@ -1,0 +1,17 @@
+{
+  "name": "chat-ia",
+  "version": "1.0.0",
+  "description": "Chat de IA com a API da Groq (Node + Express)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "groq-sdk": "^1.6.0"
+  }
+}
